@@ -1,0 +1,7 @@
+<IfModule mod_headers.c>
+  <Files "index.html">
+    Header set X-Header-Flag "FLAG{h3ader-hunt3r}"
+    Header set X-Encoded-Flag3 "RkxBR3tkZWMwZGluZy1tYTV0ZXJ9" 
+    Header set X-Next-Path "ROT13('tngrjnl')"
+  </Files>
+</IfModule>

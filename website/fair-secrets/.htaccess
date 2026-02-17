@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+  <Files "index.html">
+    Header set X-Fair-Flag "FLAG{t3ch-fa1r-2025}"
+  </Files>
+</IfModule>

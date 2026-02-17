@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Canonical host: non-www
+RewriteCond %{HTTP_HOST} ^www\.giedriussec\.lt$ [NC]
+RewriteRule ^ https://giedriussec.lt%{REQUEST_URI} [R=301,L]
