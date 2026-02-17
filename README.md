@@ -24,6 +24,15 @@ The site contains two main sections:
 
 ---
 
+## Physical Tech Fair Card
+I designed and printed these cards to hand out at the 2025 Tech Fair. The QR code led to the `/fair-secrets` challenge path.
+
+| Front | Back |
+|:-----:|:----:|
+| <img src="card_visuals/front.png" width="300"> | <img src="card_visuals/back.png" width="300"> |
+
+---
+
 ## CTF Challenges
 
 ### **1. Tech Fair Challenge**
